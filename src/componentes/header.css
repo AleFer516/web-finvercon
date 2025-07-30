@@ -1,0 +1,129 @@
+/* Header.css */
+
+header img {
+  width: 200px;
+}
+
+header {
+  background: linear-gradient(
+    to right,
+    #BBC9D8 0%,
+    #BBC9D8 20%,
+    #91AFD0 20%,
+    #91AFD0 40%,
+    #7099C7 40%,
+    #7099C7 60%,
+    #4A80BA 60%,
+    #4A80BA 80%,
+    #1A5897 80%,
+    #1A5897 100px
+  );
+  position: fixed;       /* Fija el header */
+  top: 0;                /* Lo deja pegado arriba */
+  left: 0;
+  width: 100%;           /* Que abarque todo el ancho */
+  z-index: 1000;         /* Asegura que esté por encima del resto */
+  color: rgb(255, 255, 255);
+  padding: 1rem 5rem;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: double;
+  padding: 1rem;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* debajo del elemento padre */
+  left: 0;
+  background-color: #91AFD0;
+  list-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* muestra los li en vertical */
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilo de los elementos dentro del dropdown */
+.dropdown-menu li {
+  margin: 0.3rem 0;
+  white-space: nowrap;
+}
+
+.dropdown-menu a {
+  color: black;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #357ab8;
+  border-radius: 3px;
+}
+
+/* Estilo para el botón hamburguesa */
+.menu-hamburguesa {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Ocultar menú por defecto en móvil */
+.menu {
+  display: flex;
+}
+
+.menu.abierto {
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-hamburguesa {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #1A5897;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 999;
+  }
+
+  .menu.abierto ul {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+  }
+}

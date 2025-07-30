@@ -1,0 +1,88 @@
+.servicio-detalle {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.fondo-oscuro {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;  
+  text-align: center;
+  gap: 1.5rem;       
+}
+
+.titulo-servicio {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+
+.descripcion-servicio {
+  color: white;
+  max-width: 800px;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+
+.boton-contenedor {
+  text-align: center;
+}
+
+
+.boton-cotizar {
+  background-color: #1A5897;
+  color: white;
+  padding: 0.7rem 2rem; /* ✅ Más alto y más ancho */
+  font-size: 1rem;       /* ✅ Texto más grande */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-cotizar:hover {
+  background-color: #7099C7;
+}
+
+.caracteristicas-servicio {
+  background-color: #1A5897;
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  color: white;
+}
+
+.caracteristica-item {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 1rem; 
+  line-height: 1.4;
+}
+
+
+.servicio-no-encontrado {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.columna-caracteristicas {
+  padding: 0 1rem;
+}
+
+.izquierda {
+  border-right: 1px solid #ffffff80; /* blanco con transparencia */
+}

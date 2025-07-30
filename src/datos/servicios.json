@@ -1,0 +1,122 @@
+[
+  {
+    "id": "asesoria-contable",
+    "titulo": "Asesorías contables",
+    "descripcion": "Brindamos orientación especializada para que empresas y emprendedores mantengan una contabilidad clara, ordenada y conforme a las normas vigentes. Una buena gestión contable permite tomar decisiones informadas, evitar sanciones y garantizar el cumplimiento de las obligaciones legales. Este servicio es clave para mantener la salud financiera de tu negocio.",
+    "caracteristicas": [
+      "Registro y clasificación de operaciones contables (ingresos, egresos, activos, pasivos)",
+      "Elaboración y actualización de libros contables obligatorios",
+      "Preparación de balances generales y estados de resultados",
+      "Conciliaciones bancarias mensuales",
+      "Apoyo en procesos contables anuales y auditorías externas"
+    ]
+  },
+  {
+    "id": "asesoria-tributaria",
+    "titulo": "Asesorías tributarias",
+    "descripcion": "Apoyamos a nuestros clientes en el cumplimiento eficiente de sus obligaciones fiscales ante el Servicio de Impuestos Internos (SII), asegurando el correcto cálculo, declaración y pago de impuestos. Además, diseñamos estrategias para optimizar la carga tributaria de forma legal, con un enfoque preventivo y proactivo.",
+    "caracteristicas": [
+      "Revisión y planificación tributaria personalizada",
+      "Preparación y presentación de declaraciones mensuales (IVA, retenciones, PPM) y anuales (Renta)",
+      "Asesoría sobre franquicias y beneficios tributarios disponibles",
+      "Regularización de situaciones fiscales complejas",
+      "Representación y apoyo en procesos de fiscalización por parte del SII"
+    ]
+  },
+  {
+    "id": "asesoria-financiera",
+    "titulo": "Asesorías financieras",
+    "descripcion": "Analizamos la situación económica de tu negocio para ayudarte a tomar decisiones estratégicas. Diseñamos proyecciones y planes financieros que contribuyan a la sostenibilidad y crecimiento de la empresa, facilitando una administración eficiente de los recursos.",
+    "caracteristicas": [
+      "Elaboración de presupuestos y control financiero",
+      "Proyecciones de ingresos y egresos",
+      "Evaluación de rentabilidad y análisis de inversiones",
+      "Gestión de flujo de caja y liquidez",
+      "Diagnóstico financiero general"
+    ]
+  },
+    {
+    "id": "asesoria-laboral",
+    "titulo": "Asesorías laborales",
+    "descripcion": "Ofrecemos asesoramiento integral en materias laborales para asegurar el cumplimiento de la normativa vigente y mantener relaciones laborales justas y transparentes entre empleadores y trabajadores. Nuestro enfoque previene conflictos y facilita una gestión eficiente del personal.",
+    "caracteristicas": [
+        "Elaboración y revisión de contratos de trabajo y anexos",
+        "Cálculo de sueldos, feriados, horas extras e indemnizaciones",
+        "Asesoría en procesos de desvinculación y finiquitos",
+        "Apoyo en inspecciones y fiscalizaciones laborales",
+        "Implementación de buenas prácticas laborales"
+    ]
+    },
+    {
+    "id": "recursos-humanos",
+    "titulo": "Servicios de Recursos Humanos",
+    "descripcion": "Externalizamos la gestión del capital humano de tu empresa, permitiendo que te concentres en el core de tu negocio. Apoyamos desde el reclutamiento hasta la gestión de desempeño, promoviendo un entorno laboral productivo y positivo.",
+    "caracteristicas": [
+        "Reclutamiento y selección de personal",
+        "Diseño e implementación de políticas internas",
+        "Gestión de beneficios y remuneraciones",
+        "Evaluación del desempeño y clima laboral",
+        "Administración de contratos, asistencia y licencias"
+    ]
+    },
+    {
+    "id": "servicios-contables",
+    "titulo": "Servicios contables",
+    "descripcion": "Nos encargamos del ciclo contable completo de tu empresa, garantizando un control riguroso de los movimientos financieros y la correcta presentación de informes. Esto permite mantener al día tu información ante el SII y otros organismos.",
+    "caracteristicas": [
+        "Registro de documentos contables mensuales",
+        "Emisión de informes financieros y tributarios",
+        "Cálculo de impuestos y declaraciones mensuales",
+        "Gestión de activos fijos y depreciaciones",
+        "Preparación de balances y reportes anuales"
+    ]
+    },
+    {
+    "id": "creacion-empresa",
+    "titulo": "Creación empresa en un día SPA + Formalización en el SII (Inicio de actividades)",
+    "descripcion": "Te acompañamos en todo el proceso para crear tu empresa de forma rápida, legal y eficiente. Desde la constitución en plataforma oficial hasta el inicio formal de actividades ante el SII, dejamos tu empresa lista para comenzar a operar.",
+    "caracteristicas": [
+        "Asesoría en elección de tipo societario (SPA, EIRL, Ltda., etc.)",
+        "Redacción de estatutos y firma electrónica avanzada",
+        "Registro en la plataforma 'Tu Empresa en un Día'",
+        "Obtención de RUT ante el SII",
+        "Declaración de inicio de actividades y habilitación para emitir boletas y facturas"
+    ]
+    },
+    {
+    "id": "termino-giro",
+    "titulo": "Término de Giro",
+    "descripcion": "Si decides cerrar tu empresa o dejar de operar, te ayudamos a dar término legal a tus actividades comerciales ante el SII, evitando futuros cobros, multas o problemas tributarios.",
+    "caracteristicas": [
+        "Preparación y presentación de declaración de término de giro",
+        "Cálculo y pago de impuestos finales asociados",
+        "Emisión de certificados y documentación de respaldo",
+        "Comunicación con el SII y respuesta ante eventuales observaciones",
+        "Asesoría sobre cierre de cuentas y baja de documentos electrónicos"
+    ]
+    },
+    {
+    "id": "regularizacion-sii",
+    "titulo": "Regularización SII",
+    "descripcion": "Si presentas inconsistencias, omisiones o problemas con tu situación tributaria, gestionamos la regularización de tus antecedentes ante el SII para que tu empresa vuelva a operar con normalidad.",
+    "caracteristicas": [
+        "Diagnóstico de situación tributaria actual",
+        "Corrección de declaraciones erróneas o fuera de plazo",
+        "Presentación de declaraciones omitidas",
+        "Regularización del RUT, giros o actividades económicas",
+        "Acompañamiento ante procesos de fiscalización"
+    ]
+    },
+    {
+    "id": "auditoria-contable",
+    "titulo": "Auditoría contable",
+    "descripcion": "Realizamos una evaluación detallada de los registros contables de tu empresa con el fin de validar su consistencia, detectar errores y proponer mejoras. Este servicio es clave para tener una visión clara de la situación económica y cumplir con requerimientos legales o bancarios.",
+    "caracteristicas": [
+        "Revisión de libros contables y documentación de respaldo",
+        "Verificación de cumplimiento de normativas contables y tributarias",
+        "Informe de hallazgos con observaciones y recomendaciones",
+        "Evaluación de control interno contable",
+        "Análisis de riesgos financieros y sugerencias de mejora"
+    ]
+    }
+]

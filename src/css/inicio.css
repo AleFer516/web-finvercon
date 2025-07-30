@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.bienvenida {
+  background-image: url('/imagenes/fondo.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 10rem;
+  color: white;
+  text-align: center;
+}
+
+.cuadro-oscuro {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.cuadro-oscuro h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.cuadro-oscuro p {
+  font-size: 1.5rem;
+  margin: 2rem 9rem;
+  line-height: 1.6;
+}
+
+.cuadro-oscuro button {
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cuadro-oscuro button:hover {
+  background-color: #357ab8;
+}
+
+.botones-servicio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 2rem;
+  padding: 4rem;
+}
+
+.botones-servicio button {
+  background-color: #1a5897;
+  color: white;
+  border: none;
+  padding: 1rem 1.7rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.botones-servicio button:hover {
+  background-color: #357ab8;
+  transform: translateY(-2px);
+}
+
+.nosotros {
+    background-color: #1A5897;
+}
+
+.nosotros {
+  padding: 3rem 1.5rem;
+  background-color: #003d80;
+  color: white;
+  text-align: center;
+}
+
+.nosotros h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.nosotros-intro {
+  max-width: 700px;
+  margin: 0 auto 4rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.carrusel-testimonio {
+  position: relative;
+  background-image: url('/imagenes/testimonio.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 70%;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.carrusel-testimonio .overlay {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4rem;
+  font-style: italic;
+  color: #000;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.flecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: black;
+  padding: 0 1rem;
+  z-index: 10;
+  transition: color 0.3s;
+}
+
+.flecha:hover {
+  color: #357ab8;
+}
+
+.flecha.izquierda {
+  left: 0;
+}
+
+.flecha.derecha {
+  right: 0;
+}
+
+
+
+.vision-valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
+  max-width: 1200px;
+  margin: 0 auto 0rem;
+  padding: 2rem;
+}
+
+
+.vision-valores .columna {
+  flex: 1 1 300px;
+  min-width: 250px;
+  text-align: center; 
+}
+
+
+.vision-valores h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #ffffff;
+}
+
+.vision-valores p,
+.vision-valores ul {
+  line-height: 1.6;
+  color: #ffffff;
+  text-align:start;
+}
+
+.vision-valores ul {
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .vision-valores {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vision-valores .columna {
+    max-width: 100%;
+  }
+}
+
+.servicio-dropdown {
+  position: relative;
+}
+
+.servicio-dropdown button {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-servicio-lista {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #91AFD0;
+  list-style: none;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  z-index: 10;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: max-content;
+}
+
+.dropdown-servicio-lista li {
+  padding: 0.3rem 0.5rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.dropdown-servicio-lista li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* Quita la línea de enlace */
+  display: block;
+  padding: 0.3rem 0.5rem;
+}
+
+.dropdown-servicio-lista li a:hover {
+  background-color: #357ab8;
+  border-radius: 3px;
+}
