@@ -13,7 +13,10 @@ function Inicio() {
         <div className="cuadro-oscuro">
           <h1>FINVERCON SPA</h1>
           <p>Soluciones contables para tu empresa</p>
-          <button>Conoce más</button>
+          <Link to="/nosotros">
+            <button>Conoce más</button>
+          </Link>
+
           <p>
             Sabemos que los temas tributarios pueden ser complejos, 
             por eso estamos aquí para ayudarte. En nuestra asesoría te acompañamos 

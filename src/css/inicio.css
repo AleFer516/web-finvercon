@@ -225,28 +225,34 @@ body {
   left: 0;
   background-color: #91AFD0;
   list-style: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.8rem;
   margin: 0;
   z-index: 10;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: max-content;
+  min-width: 230px; 
 }
 
 .dropdown-servicio-lista li {
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 0;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
 .dropdown-servicio-lista li a {
   color: rgb(0, 0, 0);
-  text-decoration: none; /* Quita la línea de enlace */
+  text-decoration: none;
   display: block;
-  padding: 0.3rem 0.5rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+  transition: background 0.2s;
+  white-space: nowrap; 
 }
 
 .dropdown-servicio-lista li a:hover {
   background-color: #357ab8;
-  border-radius: 3px;
+  color: #fff;
 }
+
+
